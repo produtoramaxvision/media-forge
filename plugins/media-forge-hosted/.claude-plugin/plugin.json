@@ -1,0 +1,35 @@
+{
+  "name": "media-forge-hosted",
+  "icon": "./.claude-plugin/icon.svg",
+  "version": "0.2.20",
+  "description": "media-forge hosted edition - image and video generation via MaxVision cloud. Google Imagen 4 / Veo 3.1 / Nano Banana Pro + Higgsfield / Kling 3.0 / Seedance 2.0. Connect with your Bearer key, zero local deps.",
+  "author": {
+    "name": "Produtora MaxVision",
+    "email": "produtoramaxvision@gmail.com",
+    "url": "https://produtoramaxvision.com.br"
+  },
+  "homepage": "https://api.media-forge.cloud",
+  "repository": "https://github.com/produtoramaxvision/media-forge",
+  "license": "UNLICENSED",
+  "keywords": [
+    "image-generation",
+    "video-generation",
+    "veo-3.1",
+    "imagen-4",
+    "nano-banana-pro",
+    "higgsfield",
+    "kling",
+    "seedance",
+    "mcp",
+    "hosted"
+  ],
+  "mcpServers": {
+    "media-forge": {
+      "type": "http",
+      "url": "https://api.media-forge.cloud/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MEDIA_FORGE_API_KEY}"
+      }
+    }
+  }
+}

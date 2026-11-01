@@ -1,0 +1,18 @@
+{
+  "name": "media-forge",
+  "owner": {
+    "name": "Produtora MaxVision",
+    "url": "https://media-forge.cloud"
+  },
+  "metadata": {
+    "description": "Media Forge for Claude Code: AI image and video production with a quote before every job, review on every take and charge only on delivery.",
+    "version": "0.2.21"
+  },
+  "plugins": [
+    {
+      "name": "media-forge-hosted",
+      "description": "Media Forge hosted edition - image and video generation through the Media Forge cloud (Google Veo, Imagen and Nano Banana; Kling; Seedance; Higgsfield; Grok). Thin client: no local dependencies, set MEDIA_FORGE_API_KEY.",
+      "source": "./plugins/media-forge-hosted"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="media-forge">
+  <defs>
+    <linearGradient id="mf-spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffc857"/>
+      <stop offset="1" stop-color="#ff5e3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#15151f"/>
+  <path fill="url(#mf-spark)" d="M52 18c0-3 3-5 6-3l26 15c3 2 3 6 0 8L58 53c-3 2-6 0-6-3z"/>
+  <path fill="#ffc857" d="M30 34l6 2-2 6-6-2zM94 52l5 1-1 5-5-1z"/>
+  <path fill="#e9e9f2" d="M22 66h62c13 0 22 4 22 10v4H86v8c0 4 3 7 8 9v7H38v-7c5-2 8-5 8-9v-8H36c-8 0-14-6-14-14z"/>
+  <rect x="32" y="108" width="68" height="6" rx="3" fill="#e9e9f2" opacity=".55"/>
+</svg>
